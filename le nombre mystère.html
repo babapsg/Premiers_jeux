@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>le nombre mystère</title>
+</head>
+
+<body id="fond">
+    <div class="card">
+        <h1>Le nombre mystère <img src="image_cible.jpg" alt="image d'une cible." title="cible" height="70"/></h1>
+
+        <hr />
+
+        <div>
+            
+            <h2>Devine un nombre entre 1 et 100</h2>
+            <input type="number" placeholder="Entre ton nombre" id="nombre" name="nombre" min="1" max="100" /><br><br>
+            
+            <button onclick="devinerNombre()" class="deviner"><strong>Deviner</strong></button>
+            <p>Essais: <span id="essais"></span></p> 
+            <p><span id="resultat"></span></p>
+            <button onclick="remettreZero()" class="recommencer">Recommencer</button>
+            
+        </div>
+    </div>
+</body>
+

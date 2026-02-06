@@ -1,0 +1,51 @@
+#fond {
+    height: 100vh;              /* toute la hauteur de l'écran */
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    /* centre verticalement */
+    align-items: center;        /* centre horizontalement */
+
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+    background-color: rgb(242, 238, 238);
+    
+}
+
+.card {
+    background: linear-gradient(to bottom, #f85858, #3b06b6);
+    border-radius: 30px;
+    padding: 30px;
+    border: 2px solid #f13a0d;
+    box-shadow: 0 0 20px #f05907, 0 0 40px #ff4d4d, 0 0 60px #ff0000;
+}
+input{
+    width: 50%;
+    height: 30px;
+    font-size: 17px;
+    text-align: left;
+}
+
+
+.deviner{
+    background-color: rgb(16, 66, 194);
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+    color:#ffffff;
+}
+.recommencer{
+    background-color: rgb(249, 178, 96);
+    width: 35%;
+    height: 28px;
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+
+
+    
